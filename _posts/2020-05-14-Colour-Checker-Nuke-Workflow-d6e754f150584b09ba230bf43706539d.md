@@ -4,6 +4,7 @@ layout: post
 published: true
 ---
 
+Get the tool from [Here](https://github.com/gquelch/Nuke-Public-Gizmos)
 
 With this workflow you can simply copy the grade nodes over to your CG elements and use them as a starting point for the grade.
 
