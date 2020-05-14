@@ -14,7 +14,7 @@ import shutil
 
 inputCMD = " ".join(sys.argv[1:])
 
-importDirectory = "/home/pi/github/gquelch.github.io/postImport"
+importDirectory = "/home/pi/github/gquelch.github.io/importPost"
 
 imagePath = "/assets/post_images/"
 imageDirectory = "/home/pi/github/gquelch.github.io/assets/post_images/"
@@ -51,7 +51,6 @@ def GQ_NotionToJekyll(inputName):
 	
 	inputPost = inputName + ".md"
 	
-	s = "-"
 	newFileName = today + "-" + inputPost.replace(" ","-")
 
 	oldFile = open(inputPost,"r")
