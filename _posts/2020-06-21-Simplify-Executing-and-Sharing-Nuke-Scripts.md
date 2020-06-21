@@ -13,6 +13,8 @@ Underneath the hood, the panel is importing and reloading scripts as *[modules](
 - An if statement to add the path
 - An if statement to import or reload the script
 
+
+
 Here is an example:
 
 ```python
@@ -43,6 +45,8 @@ runScript("Script Name Here")
 
 Using this, you will be able to change the name, and import any script from that folder
 
+
+
 Now, usually importing a module won't execute anything in that script, you would expect to execute a class or function from that module like this:
 
 ```python
@@ -52,7 +56,9 @@ exampleScript.doNukeAction()
 
 Here our script is called *exampleScript*, and inside that we have defined the function *doNukeAction*, which will perform the task
 
+
 Relying on executing specific functions makes it impossible to dynamically import scripts and execute them, as there is no guarantee function names are the same across multiple scripts!
+
 
 However, if we call that function at the end of the *exampleScript* script itself:
 
@@ -64,6 +70,8 @@ doNukeAction() #this extra line executes the function
 ```
 
 The script will execute when we import or reload it! Which means if all of our scripts are set up this way, we are able to import many different scripts just from their name, and not worry about specific function names within them
+
+
 
 ## Menu.py + Panels
 
