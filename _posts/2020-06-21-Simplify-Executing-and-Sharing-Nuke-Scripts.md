@@ -4,7 +4,9 @@ layout: post
 published: true
 ---
 
+If we have written lots of one off scripts for Nuke, it can be annoying to paste different ones into the script editor over and over, there are a couple of ways around this, one being the [GQ_Tools panel](https://github.com/gquelch/Nuke-Public-Scripts#gq_tools), which allows you to import and run external scripts easily.
 
+Underneath the hood, the panel is importing and reloading scripts as *[modules](https://www.w3schools.com/python/python_modules.asp)*. You can create a similar setup to import files the same way in just a few lines of code, it's comprised of:
 
 - The script path
 - The script name
@@ -30,6 +32,7 @@ def runScript(scriptName):
     #if module isn't imported, import it
     #if it is imported, reload it
     if scriptName not in sys.modules:
+        i = __import__(scriptName, fromlist=[''])
     else:
         reload(sys.modules[scriptName])
         
