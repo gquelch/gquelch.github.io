@@ -13,8 +13,6 @@ Underneath the hood, the panel is importing and reloading scripts as *[modules](
 - An if statement to add the path
 - An if statement to import or reload the script
 
-
-
 Here is an example:
 
 ```python
@@ -45,8 +43,6 @@ runScript("Script Name Here")
 
 Using this, you will be able to change the name, and import any script from that folder
 
-
-
 Now, usually importing a module won't execute anything in that script, you would expect to execute a class or function from that module like this:
 
 ```python
@@ -56,9 +52,7 @@ exampleScript.doNukeAction()
 
 Here our script is called *exampleScript*, and inside that we have defined the function *doNukeAction*, which will perform the task
 
-
 Relying on executing specific functions makes it impossible to dynamically import scripts and execute them, as there is no guarantee function names are the same across multiple scripts!
-
 
 However, if we call that function at the end of the *exampleScript* script itself:
 
@@ -69,9 +63,7 @@ def doNukeAction():
 doNukeAction() #this extra line executes the function
 ```
 
-The script will execute when we import or reload it! Which means if all of our scripts are set up this way, we are able to import many different scripts just from their name, and not worry about specific function names within them
-
-
+The script will execute when we import or reload it! Which means if all of our scripts are set up this way, we are able to import many scripts just from their name, and not worry about specific function names within them
 
 ## Menu.py + Panels
 
@@ -86,8 +78,8 @@ import nukePanel
 
 We don't need any if statements here, as this is being run initially when Nuke is launched.
 
-As above, these scripts contain an execute function, in this case it adds them to the Nuke Panel Meen, meaning I can call them whenever I need from the UI.
+As above, these scripts contain an execute function, in this case it adds them to the Nuke Panel menu, meaning I can call them whenever I need from the UI.
 
-Working this way can make you scripting and script sharing workflow much simpler, not only is it easier to import and run different scripts, but you only need to share a few lines of code with your teammates rather than emailing hundreds of lines of code around, which is easily lost and difficult to organise.
+Working this way can make you scripting and script sharing workflow much simpler, not only is it easier to import and run different scripts, but you only need to share a few lines of code with your teammates rather than emailing hundreds of lines of code around, which is easily lost and difficult to organize.
 
-You are also able to easily update the script, and won't have to re-send the entire thing again, so long as the file name doesn't change, their script for importing and reloading will continue to work
+You are also able to easily update the script, and won't have to re-send the entire thing repeatedly, so long as the file name doesn't change, the script for importing and reloading will continue to work.
