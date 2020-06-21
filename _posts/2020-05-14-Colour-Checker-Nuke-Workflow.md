@@ -44,4 +44,4 @@ Here is a rough match up for my checkers, viewed with *Render / Ref*, you would 
 
 <img src="/assets/post_images/Colour%20Checker%20Nuke%20Workflow/Untitled%202.png" class = "responsive-image"/>
 
-I can now take these grade nodes and copy them to my CG Render, and in theory, we have a starting point for our comp with nicely matched colours to our plate. In an ideal workflow, with a good HDR and Reference Colour Checker, you shouldn't need to do much to your Render Colour Checker in order for it to match, the closer they match without having to grade, the better job you have done at re-creating the real world lighting.
+I can now take these grade nodes and copy them to my CG Render, and in theory, we have a starting point for our comp with nicely matched colours to our plate. In an ideal workflow, with a good HDR and Reference Colour Checker, you shouldn't need to do much to your Render Colour Checker in order for it to match, the closer they match without having to grade, the better job you have done at re-creating the real world lighting
