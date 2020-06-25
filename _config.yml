@@ -29,7 +29,7 @@ projects:
     # - repo-name
 
 social_media:
-  #behance: www.google.com
+  # behance: www.google.com
   # dribbble: your_username
   # facebook: your_username
   # hackerrank: your_username
@@ -45,6 +45,7 @@ social_media:
   # vk: your_username
   # website: http://your_website_url
   # youtube: your_username
+  vimeo: user64949677
 
 topics:
 #  - name: CSS

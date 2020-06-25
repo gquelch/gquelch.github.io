@@ -96,7 +96,7 @@ def GQ_NotionToJekyll(inputName):
             newFile.write("\n")
             
         # Notion Database Data Pass #
-        elif oldFileLines[i].startswith("Created:") or oldFileLines[i].startswith("Published:") or oldFileLines[i].startswith("Status:"):
+        elif oldFileLines[i].startswith("Created:") or oldFileLines[i].startswith("Published:") or oldFileLines[i].startswith("Status:") or oldFileLines[i].startswith("Scripts+Tools:"):
             pass
             
         # Underscore Markdown Escape "
