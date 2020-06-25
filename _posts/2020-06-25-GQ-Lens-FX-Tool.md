@@ -18,6 +18,6 @@ One common problem with compositing depth of field is edge artefacts, sometimes 
 
 <img src="/assets/post_images/GQ%20Lens%20FX%20Tool/Untitled.png" class = "responsive-image"/>
 
-Get the gizmo from [here](https://github.com/gquelch/Nuke-Public-Gizmos/blob/master/gizmos/LensFX_GQ_1.1.nk)
+Get the gizmo from [here](https://github.com/gquelch/Nuke-Public-Gizmos/blob/master/gizmos/LensFX_GQ.nk)
 
 For specific details and demos on adding 3rd party gizmos, see the documentation [here](https://github.com/gquelch/Nuke-Public-Gizmos#lensfx_gq)
