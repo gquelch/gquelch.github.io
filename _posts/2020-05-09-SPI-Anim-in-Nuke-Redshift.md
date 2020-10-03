@@ -1,7 +1,7 @@
 ---
 title: SPI-Anim in Nuke + Redshift
 layout: post
-published: true
+published: false
 ---
 
 ### This guide is appropriate for Nuke 9 and Redshift, I have explained my reasoning and the principles behind them, so you can take this knowledge and apply it to your software configuration!

@@ -1,7 +1,7 @@
 ---
 title: Simplify Executing and Sharing Nuke Scripts
 layout: post
-published: true
+published: false
 ---
 
 If we have written lots of one off scripts for Nuke, it can be annoying to paste them into the script editor over and over, there are a couple of ways around this, one being my [GQ_Tools panel](https://github.com/gquelch/Nuke-Public-Scripts#gq_tools), which allows you to import and run external scripts easily.

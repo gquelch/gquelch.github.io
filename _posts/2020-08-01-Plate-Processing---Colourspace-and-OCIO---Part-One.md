@@ -1,7 +1,7 @@
 ---
 title: Plate Processing - Colourspace and OCIO - Part One
 layout: post
-published: true
+published: false
 ---
 
 When working on a VFX project it's important to keep consistent colour and quality of footage between software and throughout the pipeline. Some projects require delivery in a specific colourspace, maybe *Rec709*, whilst others need to be delivered in the colourspace they were provided in. We should have a clear understanding of how we are processing footage, and how to return to its original colourspace for delivery.
